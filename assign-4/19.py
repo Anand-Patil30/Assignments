@@ -1,0 +1,6 @@
+string = input("Enter the string;")
+words = string.split()
+smallest = min(words, key=len)
+largest= max(words, key=len)
+print("Smallest word is:",smallest)
+print("largest word is:",largest)
